@@ -1,0 +1,269 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.bigbox {
+    width: 1367px;
+    margin-left: auto ;
+}
+/* ---------------------------导航栏部分---------------------------------- */
+.topnav {
+    width: 1367px;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 10%;
+    margin: 0 auto;
+    color: white;
+    background-color: rgb(72, 138, 231);
+}
+
+ul li {
+    list-style: none;
+    float: left;
+    text-align: center;
+}
+ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white; 
+}
+.navigation_box .logo,
+.navigation_box .nav_title {
+    height: 60px;
+    width: 65px;
+}
+
+.nav {
+    width: 60px;
+    height: 60px;
+    font-size: 16px;
+    margin-left: 60px;
+}
+
+.navigation {
+    height: 120px;
+    width: 310px;
+    padding-left: 15px;
+    background-color: rgb(255, 255, 255);
+    display: none;
+}
+.navigation ul .navigation_content {
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    padding-top: 18px;
+    margin: 0px 8px;
+}
+.navigation ul li a {
+    color: black;
+}
+
+.search_box .input_box {
+    height: 34px;
+    width: 160px;
+    padding-left: 5px;
+    margin-left: 190px;
+    position: relative;
+    border: none;
+}
+.search_box .search {
+    height: 34px;
+    width: 32px;
+    position: absolute;
+    top: 15px;
+    border: none;
+}
+
+.record {
+    margin-left: 65px;
+}
+
+/* -----------------------------------简介----------------------------------- */
+.introduce {
+    padding-top: 5px;
+    /* margin-left: 10%; */
+}
+.introduce ul li {
+    width: 1200px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 8px;
+    text-align: left;
+    padding-left: 8px;
+    background-color: rgb(198, 198, 198);
+}
+.int_content {
+    color: red;
+}
+
+/* ----------------------------------动漫部分--------------------------------- */
+
+.animation_box {
+    width: 1290px;
+    /* margin-left: 10%; */
+}
+/* 标题部分 */
+.animation_left {
+    width: 940px;
+    height: 780px;
+    float: left;
+}
+.title {
+    width: 924px;
+    height: 42px;
+    line-height: 42px;
+    margin-top: 20px;
+    clear: none;
+    border-bottom: 2px solid rgb(170, 170, 170);
+}
+.span_content {
+    display: inline-block;
+    border-bottom: 2px solid blue;
+    font-size: 23px;
+}
+.title a {
+    color: rgb(42, 174, 250);
+    text-decoration: none;
+}
+.more {
+    float: right;
+}
+
+/* 内容部分 */
+.ani_content {
+    height: 340px;
+    width: 220px;
+    padding-top: 10px;
+    margin-right: 15px;
+    margin-bottom: 25px;
+}
+.img {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.img img {
+    width: 220px;
+    height: 320px;
+}
+.down_ {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 22px;
+    width: 100%;
+    margin-bottom: 2px;
+    background: #000;
+    opacity: 0.6;
+}
+.top_ {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 98%;
+    background-color: #000;
+    opacity: 0;
+}
+.lable_ {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 0 2%;
+    height: 22px;
+    line-height: 22px;
+    overflow: hidden;
+    color: #fff;
+    font-size: 85%;
+}
+.name {
+    width: 100%;
+    height: 24px;
+    color: #000;
+    text-align: left;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+div {
+    display: block;
+}
+
+/* 右侧内容 */
+.animation_right {
+    height: 40px;
+    width: 266px;
+    float: left;
+    position: relative;
+    margin-top: 30px;
+    font-size: 14px;
+}
+.animation_right a {
+    color: rgb(187, 187, 187);
+    text-decoration: none;
+}
+.title_date {
+    height: 31px;
+    border-bottom: 2px solid rgb(187, 187, 187);
+}
+
+/* 右侧推荐部分 */
+.ani_right_box {
+    margin-top: 15px;
+}
+.ani_right_box ul .ani_right {
+    width: 260px;
+    height: 30px;
+    text-align: left;
+    margin-top: 2px;
+}
+.ani_right_box ul .ani_right a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+.ani_right_box ul .ani_right span {
+    color: rgb(205, 206, 206);
+    float: right;
+}
+.ani_right_box .title_date .title_content {
+    font-size: 25px;
+}
+/* ---------------------------------导航栏部分------------------------------------- */
+.navigation_box .nav:hover {
+    color: rgb(72, 138, 231);
+    background-color: white;
+}
+ul .nav:hover .navigation{
+    display: block;
+    color: black;
+    position: absolute;
+    border: 1px solid rgb(72, 138, 231);
+    border-top: none;
+}
+.navigation ul li a:hover {
+    display: block;
+    border-radius: 6px;
+    color: white;
+    background-color: rgb(72, 138, 231);
+}
+ul .nav_title a:hover {
+    display: block;
+    color: rgb(72, 138, 231);
+    background-color: white;
+}
+/* --------------------------------动漫部分---------------------------------------- */
+.ani_content a:link {
+    color: rgb(39, 122, 246);
+    text-decoration: none;
+}
+.ani_content:hover img{
+    filter: brightness(50%);
+    opacity: 1;
+}
+.ani_content:hover .name_box .name{
+    color: rgb(65, 169, 243);
+}
+/* 右侧内容部分 */
+ul .ani_right a:hover {
+    color: rgb(61, 172, 246);
+}
