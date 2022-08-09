@@ -4,7 +4,8 @@
 }
 .bigbox {
     width: 1367px;
-    margin-left: auto ;
+    margin: 0 auto;
+    padding-left: 10%;
 }
 /* ---------------------------导航栏部分---------------------------------- */
 .topnav {
